@@ -5,9 +5,6 @@ import { MakeArr, CreateLabelArray, changeStateArray, CreateValueslArray, inputL
 import { Form } from './form';
 import { DisplayInputLabels } from './inputLabels';
 import { GetPDF } from './createPDF';
-import { MyDocument } from './pdf';
-
-
 
 export class Home extends React.Component {
     constructor(props) {
@@ -70,7 +67,6 @@ export class Home extends React.Component {
                     />
                 </div>
                 <button className="btn" id="pdf" onClick={GetPDF}>PDF</button>
-                <MyDocument />
             </div>
 
         )
